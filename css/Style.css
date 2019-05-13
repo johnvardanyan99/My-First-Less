@@ -1,3 +1,11 @@
+@media only screen and (max-width: 768px) {
+  header > a {
+    font-size: 16px !important;
+  }
+  header > nav li {
+    font-size: 16px !important;
+  }
+}
 body {
   margin: 0;
 }
@@ -14,6 +22,7 @@ header > a {
   text-decoration: none;
   font-size: 28px;
   font-family: sans-serif;
+  margin-left: 30px;
 }
 header > nav {
   margin: 0;
@@ -25,7 +34,7 @@ header > nav > ul {
 }
 header > nav > ul > li {
   list-style: none;
-  font-size: 24px;
+  font-size: 28px;
   font-family: sans-serif;
   margin-right: 30px;
 }
@@ -60,7 +69,7 @@ article > section > div:nth-of-type(4) {
   height: 200px;
 }
 article > section > div {
-  width: 1000px;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,3 +78,4 @@ article > section > div > h1 {
   font-size: 30px;
   color: white;
 }
+/*# sourceMappingURL=Style.css.map */
